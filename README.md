@@ -1,4 +1,4 @@
-# Off-Road LiDAR-Based SLAM: Dataset and Loop Closure Detection Framework
+# LGC: A Local and Global Combined Descriptor for Large-Scale Forest Place Recognition
 
 
  <img src="https://github.com/jiurobots/JORD/blob/main/photos.jpg" width="1000" />
