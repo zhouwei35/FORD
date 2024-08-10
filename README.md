@@ -54,7 +54,7 @@ The FORD can be download as follows:
 
 ## Code
 
-Our paper is currently Undergoing Review, and our code will be released once the paper is accepted.
+Our paper is currently submitted, and our code will be released once the paper is accepted.
 
 ## License 
 
