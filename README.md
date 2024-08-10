@@ -49,12 +49,8 @@ Achieving accurate robot place recognition in large-scale forest environments is
 The FORD can be download as follows:
 
 <p>
-链接: https://pan.baidu.com/s/1gr-3rPIEXNY0aFRnyaf1EQ?pwd=npc2 提取码: npc2 
-
-
-## Folder Structure
-
-<img src="https://github.com/jiurobots/JORD/blob/main/img/FileTree.jpg" width="200" />
+链接：https://pan.baidu.com/s/1Ya0CGdfkSDmwZln-NxcyLw?pwd=s5kn 
+提取码：s5kn 
 
 ## Code
 
