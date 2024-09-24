@@ -1,7 +1,7 @@
-# LGC: A Local and Global Combined Descriptor for Large-Scale Forest Place Recognition
+# A Novel Place Recognition Method for Large-Scale Forest Scenes
 
 
- <img src="https://github.com/jiurobots/JORD/blob/main/photos.jpg" width="1000" />
+ <img src="https://img520.com/HFd7BP.jpg" width="1000" />
 
 ## Introduction
 
