@@ -52,10 +52,6 @@ The FORD can be download as follows:
 链接：https://pan.baidu.com/s/1Ya0CGdfkSDmwZln-NxcyLw?pwd=s5kn 
 提取码：s5kn 
 
-## Code
-
-Our paper is currently submitted, and our code will be released once the paper is accepted.
-
 ## License 
 
 All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.
