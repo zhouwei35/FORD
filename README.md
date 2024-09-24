@@ -66,7 +66,7 @@ sudo apt install liboost-dev libpcl-dev libeigen3-dev
 
 ```
 mkdir ws && cd ws && mkdir src && cd src
-git clone https://github.com/jiurobots/JORD.git
+git clone https://github.com/zhouwei35/FORD.git
 catkin make
 ```
 #### Execution
