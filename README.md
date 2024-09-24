@@ -20,8 +20,7 @@
 
 | Sensor            | Model            | Rate | Specifications |
 | ----------------- | ---------------- | ---- | -------------- |
-| Mechanical LiDAR  | Velodyne VLP-16  | 10   | 16 Channels    |
-| Solid-state LiDAR | Livox HAP        | 10   | 120×25         |
+| LiDAR  | Velodyne VLP-16  | 10   | 16 Channels    |
 | IMU               | EG320N           | 125  | 6DoF           |
 | GPS               | NovAtel Npos220s | 10   | Dual Antenna   |
 
