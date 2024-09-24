@@ -28,7 +28,7 @@ Achieving accurate robot place recognition in large-scale forest environments is
 | IMU               | EG320N           | 125  | 6DoF           |
 | GPS               | NovAtel Npos220s | 10   | Dual Antenna   |
 
- <img src="https://github.com/jiurobots/JORD/blob/main/img/sensors.jpg" width="800" />
+ <img src="https://img520.com/XkIJA3.jpg" width="800" />
 
  ## Recording Collection
 
