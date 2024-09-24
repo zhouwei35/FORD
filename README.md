@@ -32,7 +32,7 @@ Achieving accurate robot place recognition in large-scale forest environments is
 
  ## Recording Collection
 
-<img src="https://github.com/jiurobots/JORD/blob/main/jord_gif/5.gif" width="400" />
+<img src="https://github.com/zhouwei1995/Gift/blob/main/5.gif" width="400" />
 
 
 ## Dataset Description  
