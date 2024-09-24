@@ -1,0 +1,62 @@
+
+
+
+# data format: bin、pcd、bag、pkg
+dataset_name: 051_4
+candidate_num: 5 # 候选帧数量
+descriptor_near_num: 6 # 用于构造三角形的最近点的个数
+
+
+dataset_sequence: velodyne
+data_format: pcd
+
+
+# path
+data_root: /home/zw/桌面/FORD2/FORD01/
+pose_root: /mnt/1t/dataset/FORD/jord_gt/
+output_root: /home/zw/桌面/CTD(0710)/catkin_ws/src/CTD/output/
+
+
+# 
+lidar_max_view: 80.0  # 激光雷达最大视距
+lidar_height: 1.73  # 激光雷达高度
+grid_size: 1.0  # 网格边长大小
+
+
+# pre process
+ds_size: 0.1
+
+# for point cloud pre-preocess
+ground_select_thre: 0.2  # 区分高低点集的高度差
+low_neighbour_num: 10  #
+ground_fitting_height: 0.2  # 地面分割高度阈值
+ground_fitting_degree: 0.9  # 地面分割角度阈值
+high_neighbour_num: 20  #
+tree_verticality_thre: 0.8  # 树的垂直性阈值
+cluster_tolerance: 0.7  # 聚类的最小距离
+min_cluster_size: 10  # 最小聚类点数
+
+dbscan_minpts: 30  # 密度聚类定义为核心点所需的最少邻居数量
+dbscan_epsilon: 0.3  # 密度聚类的邻域半径
+
+# descriptor
+
+hash_delta_l: 0.1  # 哈希函数中边长归一化的精度（0.1）
+hash_p: 100007  # 哈希函数中较大的素数（40961、116101、1000007、16777619）
+hash_maxn: 50000000  # 哈希表的大小
+
+ring_num: 20
+sector_num: 60
+max_radius: 80
+
+# candidate search
+skip_begin_num: 300  # 跳过最开始的帧数
+skip_near_num: 300  # 搜索时跳过前多少帧
+
+
+
+# for place recognition
+
+dis_threshold: 0.3
+
+
