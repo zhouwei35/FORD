@@ -49,6 +49,31 @@ The FORD can be download as follows:
 链接：https://pan.baidu.com/s/1Ya0CGdfkSDmwZln-NxcyLw?pwd=s5kn 
 提取码：s5kn 
 
+## Code
+#### Dependencies
+The following has been verified to be compatible, although other configurations may work too:
+* Ubuntu 18.04
+* ROS Noetic(roscpp, rospy, std_msgs, sensor_msgs, pcl_ros)
+* C++ 17
+* CMake >= 3.0.2
+* OpenCV >= 4.2.0
+* PCL >= 1.7
+* Eigen3 >= 3.3.7
+* Boost >= 1.71.0
+```
+sudo apt install liboost-dev libpcl-dev libeigen3-dev
+```
+#### Compiling
+
+```
+mkdir ws && cd ws && mkdir src && cd src
+git clone https://github.com/jiurobots/JORD.git
+catkin make
+```
+#### Execution
+```
+./LGC
+```
 ## License 
 
 All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.
