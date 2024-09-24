@@ -5,16 +5,16 @@
 
 ## Introduction
 
-Achieving accurate robot place recognition in large-scale forest environments is a critical task. Due to the extensive occlusion areas, repetitive terrain features, and limited remote communication in forests, the difficulty of achieving place recognition increases significantly. To address this problem, we propose a novel two-stage place recognition method, referred to as LGC, which combines local and global descriptors. In the coarse matching stage, we first design a trunk contour point cloud segmentation method based on spatial and planar clustering, and further extract trunk position coordinates. Then, a local triangle descriptor (LTD) is constructed  based on these coordinates. This descriptor correlates the structural relationships between local real-world trees and is viewpoint invariant. Next, we build a hash database and obtain a candidate frame set through the voting strategy. Finally, geometric consistency verification is performed on the candidate frames. In the fine matching stage, a global trunk descriptor (GTD) based on trunk distribution quantity information is proposed to further enhance the matching process. This method comprehensively considers the local geometric and global appearance features available in forest scenes, enabling accurate place recognition in large-scale forest scenes. Comparative verification is conducted using existing public unstructured and real-world forest datasets, comparing LGC with other advanced methods. Results show that LGC exhibits better adaptability and significant improvements in accuracy in forest scenes, even under challenging conditions with substantial viewpoint changes.
+Achieving accurate robot place recognition in large-scale forest environments is a critical task. Due to the extensive occlusion areas, repetitive terrain features, and limited remote communication in forests, the difficulty of achieving place recognition increases significantly. To address this problem, we propose a novel two-stage place recognition method, referred to as LGC, which combines local and global descriptors. In the coarse matching stage, we first design a trunk contour point cloud segmentation method based on spatial and planar clustering, and further extract trunk position coordinates. Then, a local triangle descriptor (LTD) is constructed based on these coordinates. This descriptor correlates the structural relationships between local real-world trees and is viewpoint invariant. Next, we build a hash database and obtain a candidate frame set through the voting strategy. Finally, geometric consistency verification is performed on the candidate frames. In the fine matching stage, a global trunk descriptor (GTD) based on trunk distribution quantity information is proposed to further enhance the matching process. This method comprehensively considers the local geometric and global appearance features available in forest scenes, enabling accurate place recognition in large-scale forest scenes. Comparative verification is conducted using existing public unstructured and real-world forest datasets, comparing LGC with other advanced methods. Results show that LGC exhibits better adaptability and significant improvements in accuracy in forest scenes, even under challenging conditions with substantial viewpoint changes.
 
 <p align="center">
-  <img src="https://github.com/jiurobots/JORD/blob/main/jord_gif/1.gif" width="200" />
-  <img src="https://github.com/jiurobots/JORD/blob/main/jord_gif/2.gif" width="200" />
+  <img src="https://github.com/zhouwei1995/Gift/blob/main/1.gif" width="200" />
+  <img src="https://github.com/zhouwei1995/Gift/blob/main/2.gif" width="200" />
 
 
 
-  <img src="https://github.com/jiurobots/JORD/blob/main/jord_gif/3.gif" width="200" />
-  <img src="https://github.com/jiurobots/JORD/blob/main/jord_gif/4.gif" width="200" />
+  <img src="https://github.com/zhouwei1995/Gift/blob/main/3.gif" width="200" />
+  <img src="https://github.com/zhouwei1995/Gift/blob/main/4.gif" width="200" />
 </p>
 
 
